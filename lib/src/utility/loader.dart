@@ -19,13 +19,13 @@ class _LoaderState extends State<Loader> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    controller =
-        AnimationController(vsync: this, duration: Duration(seconds: 5));
+    controller = AnimationController(duration: Duration(seconds: 5));
 
     animation_rotation = Tween<double>(
       begin: 0.0,
       end: 1.0,
-    ).animate(CurvedAnimation(parent: controller, curve: Interval(0.0, 1.0, curve: Curves.linear)));
+    ).animate(CurvedAnimation(
+        parent: controller, curve: Interval(0.0, 1.0, curve: Curves.linear)));
 
     animation_radius_in = Tween<double>(
       begin: 1.0,
