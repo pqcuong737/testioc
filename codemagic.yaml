@@ -16,6 +16,7 @@ workflows:
         scripts:
             - |
                 # build Flutter module
+                pwd
                 cd $FLUTTER_MODULE_DIR
                 flutter packages get
                 flutter build ios-framework --output=$FCI_BUILD_DIR/$HOST_IOS_APP_DIR/Flutter
