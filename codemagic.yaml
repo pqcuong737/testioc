@@ -6,10 +6,10 @@ workflows:
         name: iOS App with Flutter Module
         environment:
             vars:
-                FLUTTER_MODULE_DIR: "{{ ADD YOUR PATH HERE }}"
-                HOST_IOS_APP_DIR: "{{ ADD YOUR PATH HERE }}"
-                XCODE_PROJECT: "{{ ADD WORKSPACE NAME HERE }}"
-                XCODE_SCHEME: "{{ ADD SCHEME NAME HERE }}"
+                FLUTTER_MODULE_DIR: "testioc"
+                HOST_IOS_APP_DIR: "testioc/ios"
+                XCODE_PROJECT: "Runner"
+                XCODE_SCHEME: "Runner"
             xcode: edge
             cocoapods: default
             flutter: stable
