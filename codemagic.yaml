@@ -6,8 +6,8 @@ workflows:
         name: iOS App with Flutter Module
         environment:
             vars:
-                FLUTTER_MODULE_DIR: "testioc"
-                HOST_IOS_APP_DIR: "testioc/ios"
+                FLUTTER_MODULE_DIR: "$HOME/cuongpq/Work/Test/mobile/testioc"
+                HOST_IOS_APP_DIR: "$HOME/cuongpq/Work/Test/mobile/testioc/ios"
                 XCODE_PROJECT: "Runner"
                 XCODE_SCHEME: "Runner"
             xcode: edge
