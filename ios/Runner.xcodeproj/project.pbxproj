@@ -562,7 +562,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitechsolutions.IOC;
 				PRODUCT_NAME = Runner;
-				PROVISIONING_PROFILE_SPECIFIER = ioc_provisioning_profile;
+				PROVISIONING_PROFILE_SPECIFIER = bvhcmioctest;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
